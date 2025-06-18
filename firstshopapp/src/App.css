@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+  background-color: purple;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: cyan;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.date-box {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 70px;
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date-box .day {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.title {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 0px 0px 120px;
+}
+
